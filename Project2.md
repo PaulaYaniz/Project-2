@@ -126,4 +126,4 @@ Modules of code to run when it’s convenient and do a specific task inside the 
 #### Fig 8: Counter upwards or downwards using light and sound
 To solve the first criterion in the clients requirement I decided to create a binary counter shown in Fig. 8. Using pattern recognition I build a program with for and while loops, conditions, variables and functions. Also, some instructions especially created for the Arduino machine are used.
 
-_(code files will be found in counter.py and counter.c)_
+_(code files will be found in counter.py and counter.ino)_

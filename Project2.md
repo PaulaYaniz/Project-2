@@ -12,7 +12,8 @@ The product is being developed because it is important to be inclusive with ever
 
 ## Proposed Solution:
 ### Design statement:
-We will design and implement a multisensorial counter (0-9) for a client that does not know the roman numbers. Specifically, the numbers from 0 to 9 will be presented with light and with sound. So everyone, including disabled people will be able to receive the information. The program will be based on binary code and is constructed using the software Python 3.0. It will take 3 weeks to make and will be evaluated according to the criteria A Planning, B Solution Overview, and C Development.
+We will design and implement a multisensorial counter (0-9) for a client that does not know the roman numbers. Specifically, the numbers from 0 to 9 will be presented with light and with sound. So everyone, including disabled people will be able to receive the information. The program will be based on binary code and is constructed using the software Python 3.0. It will take 3 weeks to make and will be evaluated according to the criteria A Planning, B Solution Overview, and C Development.![146830861-1213d8b7-a67d-4863-95c9-23a996497eb0](https://user-images.githubusercontent.com/89135778/146832436-6ee08547-9813-4c92-aae7-6102d5cb4821.png)
+
 
 
 ### Justify the software selected:
@@ -108,23 +109,28 @@ This is a list of steps, table, or flow chart specifying the process for testing
 [3] https://github.com/  
 
 ## a) List of techniques used
-#### - Variables
-Variables are used for storing values as if the user wants to go upwards or downwards and the number he will start counting.
-#### - Conditions: If, elif, else statements
-With the if, elif and else statements we make sure that there are not incorrect values given by the user in the variables. Then we use them to run our program correctly.
-#### - While loops
-We use the while loops to create a repetition of instructions and to make sure all the correct numbers are shown.
-#### - For loops
-We use the while loops to create a repetition of instructions during a concrete time.
-#### - Input instruction
-We use this to create variables by an instruction given by the user. 
-#### - Print instruction
-We use the print instruction to give messages to the user and show the result of the counting.
-#### - Data Encoding
-Computers use data encoding to store and retrieve meaningful information as data.
-#### - Functions
-Modules of code to run when it’s convenient and do a specific task inside the program.
+**- Variables:**  
+Variables are used for storing values as if the user wants to go upwards or downwards and the number he will start counting.  
+**- Conditions (if, elif, else statements):**  
+With the if, elif and else statements we make sure that there are not incorrect values given by the user in the variables. Then we use them to run our program correctly.  
+**- While loops:**  
+We use the while loops to create a repetition of instructions and to make sure all the correct numbers are shown.  
+**- For loops:**  
+We use the while loops to create a repetition of instructions during a concrete time.  
+**- Input instruction:**  
+We use this to create variables by an instruction given by the user.  
+**- Print instruction:**  
+We use the print instruction to give messages to the user and show the result of the counting.  
+**- Data Encoding:**  
+Computers use data encoding to store and retrieve meaningful information as data.  
+**- Functions:**  
+Modules of code to run when it’s convenient and do a specific task inside the program.  
 
 ## b) Development
+![image](https://user-images.githubusercontent.com/89135778/146830782-8e4d0c51-0447-4264-98ff-d44baa1a2fc0.png)
+![image](https://user-images.githubusercontent.com/89135778/146830823-77158246-ed5e-497d-9190-f143ed7a3534.png)
+![image](https://user-images.githubusercontent.com/89135778/146830861-1213d8b7-a67d-4863-95c9-23a996497eb0.png)
+#### Fig 7: Counter upwards or downwards using light and sound
+To solve the first criterion in the clients requirement I decided to create a binary counter shown in Fig. 7. Using pattern recognition I build a program with for and while loops, conditions, variables and functions. Also, some instructions especially created for the Arduino machine are used.
 
-
+(code will also be found in counter.py and counter.c)

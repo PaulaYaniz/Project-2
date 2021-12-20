@@ -17,13 +17,11 @@ We will design and implement a multisensorial counter (0-9) for a client that do
 
 
 ### Justify the software selected:
-Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners. According to PYPL and ZDNet [1], [2], Python is one of the most popular languages with about 30% of programmers use Python as their main programming language, so there is a big Internet community to ask for help. Also, its codes can be easily written and executed much faster than other programming languages. Python is an open source and has a lot of  tools, like functions or libraries to complement the code, so you can do practically anything with your code. It is also friendly for the programmers and the users, making it possible to be read even by people who are not programmers. It is easy to implement data structures in Python with built-in insert, append functions. Also, there is a large library of built-in functions in Python.
+Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners. According to PYPL[^1] and ZDNet[^2], Python is one of the most popular languages with about 30% of programmers use Python as their main programming language, so there is a big Internet community to ask for help. Also, its codes can be easily written and executed much faster than other programming languages. Python is an open source and has a lot of  tools, like functions or libraries to complement the code, so you can do practically anything with your code. It is also friendly for the programmers and the users, making it possible to be read even by people who are not programmers. It is easy to implement data structures in Python with built-in insert, append functions. Also, there is a large library of built-in functions in Python.
 Finally, we will use an online conversor from Python to C so we can use our program in Arduino. 
 
-[1] Tung, Liam. “Programming Languages: Python Just Took a Big Jump Forward.” ZDNet, ZDNet, 6 Oct. 2021, https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/
-
-[2] “PYPL Popularity of Programming Language Index.” Index, https://pypl.github.io/PYPL.html
-
+[^1]: “PYPL Popularity of Programming Language Index.” Index, https://pypl.github.io/PYPL.html
+[^2]: Tung, Liam. “Programming Languages: Python Just Took a Big Jump Forward.” ZDNet, ZDNet, 6 Oct. 2021, https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/
 
 ### Justify the structure of the proposed solution:
 Our program has the typical type and it is easy to understand. There are comments on each step, so someone who reads the code can understand easily what is happening. Also, there are functions that make the code simple and variables with names that are understandable.
@@ -99,14 +97,13 @@ This is a list of steps, table, or flow chart specifying the process for testing
 ## Existing tools
 - Python
 - C Language
-- Converter from Python to C Language [1] 
-- Arduino Platform [2]
-- GitHub [3]
+- Converter from Python to C Language[^3] 
+- Arduino Platform[^4]
+- GitHub[^5]
 
-#### Links:
-[1] https://pythoncsharp.com/  
-[2] https://www.tinkercad.com/dashboard  
-[3] https://github.com/  
+[^3]: https://pythoncsharp.com/  
+[^4]: https://www.tinkercad.com/dashboard  
+[^5]: https://github.com/  
 
 ## a) List of techniques used
 **- Variables:**  
@@ -133,4 +130,4 @@ Modules of code to run when it’s convenient and do a specific task inside the 
 #### Fig 7: Counter upwards or downwards using light and sound
 To solve the first criterion in the clients requirement I decided to create a binary counter shown in Fig. 7. Using pattern recognition I build a program with for and while loops, conditions, variables and functions. Also, some instructions especially created for the Arduino machine are used.
 
-(code will also be found in counter.py and counter.c)
+(code files will be found in counter.py and counter.c)

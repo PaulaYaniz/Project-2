@@ -1,23 +1,20 @@
-# Unit 2: A multisensorial counter
+# :computer: Unit 2: A multisensorial counter :stopwatch:
 #### By Angelos & Paula
 ![image](https://user-images.githubusercontent.com/89135778/146809644-e51813aa-4eaa-4374-bd85-ecf4c0aa9bd5.png)  
 Design and implement a multisensorial counter (0-9) for a client that does not know the roman numbers. It should allow the user to count up and down from a set start.
 
-
-# Criterion A: Planning
+# :star2: Criterion A: Planning
 
 ## Problem definition:
-We need to design and implement a multisensorial counter that can count from 0 to 9 up and down from a set number. The client doesn’t know the roman numbers and has a disability. 
+We need to design and implement a multisensorial counter that can count from 0 to 9 up and down from a set number. The client doesn’t know the roman numbers and has a disability.  
 The product is being developed because it is important to be inclusive with everyone and we all have the right to be able to count from 0 to 9. There are many similar products that allow disabled users to count numbers, such as watches, traffic lights etc.
 
 ## Proposed Solution:
 ### Design statement:
-We will design and implement a multisensorial counter (0-9) for a client that does not know the roman numbers. Specifically, the numbers from 0 to 9 will be presented with light and with sound. So everyone, including disabled people will be able to receive the information. The program will be based on binary code and is constructed using the software Python 3.0. It will take 3 weeks to make and will be evaluated according to the criteria A Planning, B Solution Overview, and C Development.![146830861-1213d8b7-a67d-4863-95c9-23a996497eb0](https://user-images.githubusercontent.com/89135778/146832436-6ee08547-9813-4c92-aae7-6102d5cb4821.png)
-
-
+We will design and implement a multisensorial counter (0-9) for a client that does not know the roman numbers. Specifically, the numbers from 0 to 9 will be presented with light and with sound. So everyone, including disabled people will be able to receive the information. The program will be based on binary code and is constructed using the software Python 3.0. It will take 3 weeks to make and will be evaluated according to the criteria A Planning, B Solution Overview, and C Development.
 
 ### Justify the software selected:
-Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners. According to PYPL[^1] and ZDNet[^2], Python is one of the most popular languages with about 30% of programmers use Python as their main programming language, so there is a big Internet community to ask for help. Also, its codes can be easily written and executed much faster than other programming languages. Python is an open source and has a lot of  tools, like functions or libraries to complement the code, so you can do practically anything with your code. It is also friendly for the programmers and the users, making it possible to be read even by people who are not programmers. It is easy to implement data structures in Python with built-in insert, append functions. Also, there is a large library of built-in functions in Python.
+Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners. According to PYPL[^1] and ZDNet[^2], Python is one of the most popular languages with about 30% of programmers use Python as their main programming language, so there is a big Internet community to ask for help. Also, its codes can be easily written and executed much faster than other programming languages. Python is an open source and has a lot of  tools, like functions or libraries to complement the code, so you can do practically anything with your code. It is also friendly for the programmers and the users, making it possible to be read even by people who are not programmers. It is easy to implement data structures in Python with built-in insert, append functions. Also, there is a large library of built-in functions in Python.  
 Finally, we will use an online conversor from Python to C so we can use our program in Arduino. 
 
 [^1]: “PYPL Popularity of Programming Language Index.” Index, https://pypl.github.io/PYPL.html
@@ -32,11 +29,11 @@ Our program has the typical type and it is easy to understand. There are comment
 3. Dots ( · ) will be represented with a light bulb and a sound that last 0.4 seconds, while the lines ( - ) will be represented with a light bulb and a sound that last 1 second.
 
 ## What is the personal relevance of the program? Why did you pick the theme?
-We want to be inclusive and give opportunities to everyone. So, it is important that all people in the world have access to counting methods. Everyone has the right to have a counter, it shouldn’t matter having a disability. 
-That is why we included light bulbs and sound, so that everyone will be able to understand it.
+We want to be inclusive and give opportunities to everyone. So, it is important that all people in the world have access to counting methods. Everyone has the right to have a counter, it shouldn’t matter having a disability.  
+That is why we included light bulbs and sound, so that everyone will be able to understand it.  y
 We chose a mix of binary and morse code for our counting system because it can be understandable for all and we personally like the idea of reading lines ( - ) and dots ( · ), as some spies and special forces.
 
-# Criterion B: Design
+# :star2: Criterion B: Design
 | Decimal     | 0       | 1       | 2       | 3       | 4       | 5       | 6       | 7       | 8       | 9       |
 |-------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | Binary      | 0       | 1       | 10      | 11      | 100     | 101     | 110     | 111     | 1000    | 1001    |
@@ -44,8 +41,8 @@ We chose a mix of binary and morse code for our counting system because it can b
 
 #### Fig.1: Comparision table of numerical systems
 
-This table represents a conversion from decimal numbers to binary numbers, which then are converted to our own system where:
-Dots (·) will be represented with a light bulb and a sound that last 0.5 seconds.
+This table represents a conversion from decimal numbers to binary numbers, which then are converted to our own system where:  
+Dots (·) will be represented with a light bulb and a sound that last 0.5 seconds.  
 Lines (-) will be represented with a light bulb and a sound that last 3 seconds.
 
 ## System diagram
@@ -60,23 +57,22 @@ This is the System Diagram. You can see how the program is operated in a compute
 | Unit test of the sound                            | This test is evaluating the function  for the sound.        | 1. Run the program sound.py 2. Select the direction and number.    | Sounds are heard and are numbers in our numerical system.                |
 | Unit test of the light                            | This test is evaluating the function  for the lights.       | 1. Run the program light.py 2. Select the direction and number.    | Lights are seen and are numbers in our numerical system.                 |
 | Unit test of the light and sound at the same time | This test is evaluating the function  for sound and lights. | 1. Run the program project2.py 2. Select the direction and number. | Sounds and lights are displayed and are numbers in our numerical system. |
-
+#### Fig. 3: Test plan
 This is a list of steps, table, or flow chart specifying the process for testing the solution with the inputs and expected outputs.
-
 
 ## Flow diagrams
 ![image](https://user-images.githubusercontent.com/89135778/146826227-7b536cbc-d6ee-46d8-93a0-b402d68bf5be.png)
-#### Fig 3: Flow diagram 1 showing the counter upwards or downwards
+#### Fig 4: Flow diagram 1 showing the counter upwards or downwards
 
 ![image](https://user-images.githubusercontent.com/89135778/146826414-073ed578-d887-4afe-b286-41d1e01f43ce.png)
-#### Fig 4: Flow diagram 2 showing the counter upwards or downwards with a starting number
+#### Fig 5: Flow diagram 2 showing the counter upwards or downwards with a starting number
 
 ![image](https://user-images.githubusercontent.com/89135778/146826889-0e059f04-71d3-4d5c-8168-0244daca6d95.png)
-#### Fig 5: Flow diagram 3 showing the counter in Binary Morse system upwards or downwards
+#### Fig 6: Flow diagram 3 showing the counter in Binary Morse system upwards or downwards
 
 ## User Interface Sketch
 ![image](https://user-images.githubusercontent.com/89135778/146828883-67bc57c5-711a-4db1-9fef-ac41668e372f.png)
-#### Fig 6: Arduino webpage with our program
+#### Fig 7: Arduino webpage with our program
 
 ## Record of Tasks
 | Task No | Planned Action                                                    | Planned Outcome                                                                                  | Time estimate | Target completion date | Criterion       |
@@ -93,7 +89,7 @@ This is a list of steps, table, or flow chart specifying the process for testing
 | 10      | Make some improvements in the Arduino code                        | Adding light and sound and changing their duration                                               | 2h            | Dec 18                 | C - Development |
 | 11      | User interface sketch                                             | Photo of Arduino as the user interface sketch                                                    | 5min          | Dec 18                 | B - Design      |
 
-# Criterion C: Development
+# :star2: Criterion C: Development
 ## Existing tools
 - Python
 - C Language
@@ -127,7 +123,7 @@ Modules of code to run when it’s convenient and do a specific task inside the 
 ![image](https://user-images.githubusercontent.com/89135778/146830782-8e4d0c51-0447-4264-98ff-d44baa1a2fc0.png)
 ![image](https://user-images.githubusercontent.com/89135778/146830823-77158246-ed5e-497d-9190-f143ed7a3534.png)
 ![image](https://user-images.githubusercontent.com/89135778/146830861-1213d8b7-a67d-4863-95c9-23a996497eb0.png)
-#### Fig 7: Counter upwards or downwards using light and sound
-To solve the first criterion in the clients requirement I decided to create a binary counter shown in Fig. 7. Using pattern recognition I build a program with for and while loops, conditions, variables and functions. Also, some instructions especially created for the Arduino machine are used.
+#### Fig 8: Counter upwards or downwards using light and sound
+To solve the first criterion in the clients requirement I decided to create a binary counter shown in Fig. 8. Using pattern recognition I build a program with for and while loops, conditions, variables and functions. Also, some instructions especially created for the Arduino machine are used.
 
-(code files will be found in counter.py and counter.c)
+_(code files will be found in counter.py and counter.c)_

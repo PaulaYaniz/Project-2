@@ -1,7 +1,6 @@
 # Unit 2: A multisensorial counter
 #### By Angelos & Paula
-![image](https://user-images.githubusercontent.com/89135778/146809644-e51813aa-4eaa-4374-bd85-ecf4c0aa9bd5.png)
-
+![image](https://user-images.githubusercontent.com/89135778/146809644-e51813aa-4eaa-4374-bd85-ecf4c0aa9bd5.png)  
 Design and implement a multisensorial counter (0-9) for a client that does not know the roman numbers. It should allow the user to count up and down from a set start.
 
 
@@ -53,8 +52,7 @@ Lines (-) will be represented with a light bulb and a sound that last 3 seconds.
 ## System diagram
 ![image](https://user-images.githubusercontent.com/89135778/146818297-b8fd4a93-f886-44e4-8e13-9d272ff51344.png)
 
-#### Fig 2: System diagram of the proposed solution
-
+#### Fig 2: System diagram of the proposed solution  
 This is the System Diagram. You can see how the program is operated in a computer HP with its specifications, with the operating system of Windows 10. The programme used to run this project is PyCharm Edu and the archive's name is counter.py. The code asks the user to input the starting number and to decide if they want to count downwards or upwards. Then, it processes the data and finally outputs sound and light to represent the numbers. 
 
 ## Test Plan
@@ -77,6 +75,10 @@ This is a list of steps, table, or flow chart specifying the process for testing
 ![image](https://user-images.githubusercontent.com/89135778/146826889-0e059f04-71d3-4d5c-8168-0244daca6d95.png)
 #### Fig 5: Flow diagram 3 showing the counter in Binary Morse system upwards or downwards
 
+## User Interface Sketch
+![image](https://user-images.githubusercontent.com/89135778/146828883-67bc57c5-711a-4db1-9fef-ac41668e372f.png)
+#### Fig 6: Arduino webpage with our program
+
 ## Record of Tasks
 | Task No | Planned Action                                                    | Planned Outcome                                                                                  | Time estimate | Target completion date | Criterion       |
 |---------|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------|------------------------|-----------------|
@@ -92,5 +94,37 @@ This is a list of steps, table, or flow chart specifying the process for testing
 | 10      | Make some improvements in the Arduino code                        | Adding light and sound and changing their duration                                               | 2h            | Dec 18                 | C - Development |
 | 11      | User interface sketch                                             | Photo of Arduino as the user interface sketch                                                    | 5min          | Dec 18                 | B - Design      |
 
+# Criterion C: Development
+## Existing tools
+- Python
+- C Language
+- Converter from Python to C Language [1] 
+- Arduino Platform [2]
+- GitHub [3]
+
+#### Links:
+[1] https://pythoncsharp.com/  
+[2] https://www.tinkercad.com/dashboard  
+[3] https://github.com/  
+
+## a) List of techniques used
+#### - Variables
+Variables are used for storing values as if the user wants to go upwards or downwards and the number he will start counting.
+#### - Conditions: If, elif, else statements
+With the if, elif and else statements we make sure that there are not incorrect values given by the user in the variables. Then we use them to run our program correctly.
+#### - While loops
+We use the while loops to create a repetition of instructions and to make sure all the correct numbers are shown.
+#### - For loops
+We use the while loops to create a repetition of instructions during a concrete time.
+#### - Input instruction
+We use this to create variables by an instruction given by the user. 
+#### - Print instruction
+We use the print instruction to give messages to the user and show the result of the counting.
+#### - Data Encoding
+Computers use data encoding to store and retrieve meaningful information as data.
+#### - Functions
+Modules of code to run when it’s convenient and do a specific task inside the program.
+
+## b) Development
 
 

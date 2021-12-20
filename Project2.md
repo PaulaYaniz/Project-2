@@ -67,12 +67,30 @@ This is the System Diagram. You can see how the program is operated in a compute
 This is a list of steps, table, or flow chart specifying the process for testing the solution with the inputs and expected outputs.
 
 
+## Flow diagrams
+![image](https://user-images.githubusercontent.com/89135778/146826227-7b536cbc-d6ee-46d8-93a0-b402d68bf5be.png)
+#### Fig 3: Flow diagram 1 showing the counter upwards or downwards
 
+![image](https://user-images.githubusercontent.com/89135778/146826414-073ed578-d887-4afe-b286-41d1e01f43ce.png)
+#### Fig 4: Flow diagram 2 showing the counter upwards or downwards with a starting number
 
+![image](https://user-images.githubusercontent.com/89135778/146826889-0e059f04-71d3-4d5c-8168-0244daca6d95.png)
+#### Fig 5: Flow diagram 3 showing the counter in Binary Morse system upwards or downwards
 
-
-
-
+## Record of Tasks
+| Task No | Planned Action                                                    | Planned Outcome                                                                                  | Time estimate | Target completion date | Criterion       |
+|---------|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------|------------------------|-----------------|
+| 1       | Write problem definition, proposed solution and success criteria. | For having clear ideas about the project, the design, the software and the goals.                | 40min         | Dec 8                  | A - Planning    |
+| 2       | Create system diagram                                             | To have a clear idea of the hardware and software requirements for the proposed solution.        | 10min         | Dec 9                  | B - Design      |
+| 3       | Create flow diagrams                                              | To have clear ideas on how to code and how the programme would work.                             | 40min         | Dec 14                 | B - Design      |
+| 4       | Think about test plan                                             | For having clear goals and what to expect.                                                       | 10min         | Dec 14                 | B - Design      |
+| 5       | Code the base of the program                                      | There are different python codes for our program.                                                | 30min         | Dec 14                 | C - Development |
+| 6       | Make some improvements in the code                                | General improvements.                                                                            | 1h            | Dec 15                 | C - Development |
+| 7       | Improve user intuitive instructions                               | Change some codes so it is easier to the user to understand the game, based on the previous test | 20min         | Dec 15                 | C - Development |
+| 8       | Write tools and techniques used in the program                    | So they can be accessible all time and anyones knows the resources used.                         | 30min         | Dec 15                 | C - Development |
+| 9       | Convert Python code to C and Arduino                              | Arduino Tinkercad uses C language for running its programs so we have converted our Python code. | 1h            | Dec 17                 | C - Development |
+| 10      | Make some improvements in the Arduino code                        | Adding light and sound and changing their duration                                               | 2h            | Dec 18                 | C - Development |
+| 11      | User interface sketch                                             | Photo of Arduino as the user interface sketch                                                    | 5min          | Dec 18                 | B - Design      |
 
 
 
